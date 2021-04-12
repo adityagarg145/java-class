@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>
+javaHW
+</title>
+<style>
+	#aditya{border-color: red;bottom: 10px;padding: 30 35;background-color: red;border-radius: 30px;}
+	#adityagarg{border-color: red;bottom: 10px;padding: 30 35;background-color: lime;border-radius: 30px;}
+	h1{text-align:center;}
+	#garg{border-color: red;bottom: 10px;padding: 30 35;background-color: orange;border-radius: 30px;}
+	#adi{border-color: red;bottom: 10px;padding: 30 35;background-color: silver;border-radius: 30px;}
+	#tya{border-color: red;bottom: 10px;padding: 30 35;background-color: gold;border-radius: 30px;}
+	#java{border-color: red;bottom: 10px;padding: 25 30;background-color: blue;border-radius: 25px;}
+	#script{border-color: red;bottom: 10px;padding: 25 30;background-color: orange;border-radius: 25px;}
+	#html{border-color: red;bottom: 10px;padding: 25 30;background-color: green;border-radius: 25px;color: red;}
+</style>
+</head>
+<body>
+	<p text-align:centre;>
+		<h1>YOU CAN CHANGE BACKGROUND BY CLICKING ON THE BUTTONS</h1>
+	</p>
+		<button onclick="changetext()" id="aditya">red</button>
+		<br/>
+		<br/>
+		<button onclick="float()" id="adityagarg">lime</button>
+		<br/>
+		<br/>
+		<button  onclick="a()" id="garg">orange</button>
+		<br/>
+		<br/>
+		<button  onclick="b()" id="adi">silver</button>
+		<br/>
+		<br/>
+		<button  onclick="c()" id="tya">gold</button>
+<script>
+	function changetext()
+	{
+document.body.style.background="red";
+}
+function float()
+{
+	document.body.style.background="lime"
+}
+function a()
+{
+	document.body.style.background="orange";
+}
+function b()
+{
+	document.body.style.background="silver"
+}
+function c()
+{
+	document.body.style.background="gold"
+}
+function d()
+{
+document.getElementById("BYE").innerHTML="THANKS FOR LIKE";
+}
+function e()
+{
+document.getElementById("BYE").innerHTML="THANKS FOR DISLIKE, WE WILL TRY TO IMPROVE";
+}
+function f()
+{
+window.alert("IF YOU HAVE SUBMIT THE REQUEST IT WILL RECIEVE TO US");
+}	
+</script>
+<table>
+	<tr>
+		<td>
+			<p>
+				<h3 id="BYE">
+				FEEDBACK IT BY CLICKING ON LIKE OR DISLIKE
+			</h3>
+			</p>
+		</td>
+		<th colspan="2">
+			<button  onclick="d()" id="java">like</button>
+		</th>
+	</tr>
+	<tr>
+		<th>
+			<th>
+			<button  onclick="e()" id="script">dislike</button>
+		</th>
+		</th>
+	</tr>
+</table>
+<button  onclick="f()" id="html">submit my request</button>
+<br/>
+<br/>
+<input type="text" name="no" onclick="alert('IF YOU HAVE SUBMIT THE REQUEST IT WILL RECIEVE TO US')" maxlength="0" placeholder="OR CLICK HERE">
+</body>
+</html>
