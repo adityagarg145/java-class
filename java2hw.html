@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+	DRIVING LICENSE
+</title>
+<style>
+	body{background-color: orange;}
+	h1{text-align: center;color: red;font-family: Courier New;}
+	#aditya{padding: 90px 90px; margin: 101px 440px; border: solid;background-color: blue;}
+    td{padding: 20px 5px;}
+    button{background-color: lime;padding: 30px;border-radius: 35px;}
+	</style>
+</head>
+<body>
+	<h1>
+	    DRIVING LICENCE FORM
+	</h1>
+					<form name="t"action="#">
+	<table id="aditya">
+		<tr>
+			<td>
+				FIRST NAME
+			</td>
+			<td>
+					<input type="text" name="z">
+			</td>
+		</tr>
+         <tr>
+         	<td>
+         		LAST NAME
+         	</td>
+         	<td>
+         		<input type="text" name="Y">
+         	</td>
+         </tr>
+         <tr>
+         	<td>
+         		AGE
+         	</td>
+         	<td>
+         		<input type="number" name="m" id="only" onblur="a()">
+         	</td>
+         </tr>
+         <tr>
+         	<td>
+         		SUBMITION YEAR AND MONTH
+         	</td>
+         	<td>
+         		<input type="month" name="n">
+         	</td>
+         </tr>
+         <tr>
+         	<td>
+         		G-MAIL
+         	</td>
+         	<td>
+         		<input type="email" name="q">
+         	</td>
+         </tr>
+         <tr>
+         	<td>
+         		ADDRESS
+         	</td>
+         	<td>
+         		<input type="text" name="o">
+         	</td>
+         </tr>
+         <tr>
+         	<td>
+         		<button onclick="a()">
+         			SUBMIT
+         		</button>
+         	</td>
+         </tr>
+	</table>
+	</form>
+	<script>
+		function a()
+{
+	if (document.t.m.value>=18) {
+		window.alert("THANK YOU FOR REGISTRATION!YOU WILL GET YOUR LICENCE SOON.");
+	}
+	else
+	{
+		window.alert("SORRY!YOU ARE NOT ELIGIBLE FOR THIS LICENCE!");
+	}
+}
+	</script>
+</body>
+</html>
